@@ -1,0 +1,231 @@
+
+.pagina__inicial{
+    background: var(--cor-principal);
+    padding: 0 15px;
+}
+
+.pagina__inicial h3{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    padding-top: 50px;
+}
+
+.pagina__inicial h2{
+    font-family: var(--fonte-textos);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.pagina__inicial p{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.show__more{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.show__more a{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-textos);
+    font-size: 0.8rem;
+}
+
+.redes__sociais{
+    display: flex;
+    gap: 10px;
+}
+
+.redes__sociais a{
+    text-decoration: none;
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+    padding-bottom: 7px;
+    border-radius: 100%;
+}
+
+.redes__sociais a img{
+    width: 25px;
+}
+
+.conteiner__foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background__foto{
+    position: relative;
+    display: inline-block;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    height: 100px;
+    width: 210px;
+    background: radial-gradient(circle at bottom right,rgba(0,0,0,1) 10%,rgba(109, 2, 2, 0.6) 50%);
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.6);
+    transition: transform 1s ease;
+    
+}
+
+.background__foto:hover{
+    transform: scale(1.05);
+}
+
+.foto__dev{
+    width: 100%;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(48%);
+    position: absolute;
+}
+
+.skills{
+    background: var(--preto-terciario);
+    padding: 0 15px;
+}
+
+.skills h2{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    font-weight: 600; 
+    padding-top: 30px; 
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    
+}
+
+.cards div{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 40px 0;
+    border-radius: 10px;
+    margin: 0 10px;
+    
+}
+
+.cards div i{
+    font-size: 1.5rem;
+}
+
+.cards div h3{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cards div p{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    font-weight: 400;  
+    max-width: 85%;
+    
+}
+
+.cards div:first-child{
+    margin-top: 50px;
+}
+
+.cards div:last-child{
+    margin-bottom: 50px;
+    background-color: var(--cor-secundaria);
+    opacity: 0.5;
+    transition: opacity 1s ease-out;
+}
+
+.cards div:last-child:hover{
+    opacity: 1;
+}
+
+.simbolos{
+    display: flex;
+    gap: 8px;
+}
+
+.trabalhos__recentes{
+    background: var(--cor-secundaria);
+    padding: 0 15px;
+
+}
+
+.trabalhos__recentes h2{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    font-weight: 600; 
+    padding-top: 30px;  
+    margin-bottom: 30px;   
+}
+
+.menu__opcoes{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    width: auto;
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: var(--preto);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.menu__opcoes p{
+    font-family: var(--fonte-textos);
+    font-size: 0.7rem;
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;;
+}
+
+.menu__opcoes p.active{
+    background-color: var(--cor-terciaria);
+}
+
+.carrossel__viewport{
+    overflow: hidden;
+}
+
+.carrossel__imagens{
+    display: flex;
+    gap: 50px;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.item p{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    width: 250px;
+}
+
+.carrossel__imagens img{
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.carrossel__imagens div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
