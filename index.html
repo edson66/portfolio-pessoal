@@ -10,15 +10,15 @@
 <body>
     <header>
         <div>
-            <div class="elementos__cabecalho">
+            <div class="elementos__cabecalho active">
                 <div class="logo"> <img src="./assets/logo.png" alt="logo da página"> </div>
-                <nav class="ancoras">
-                    <a href="#">Home</a>
-                    <a href="#">Sobre mim</a>
-                    <a href="#">Resume</a>
-                    <a href="#">Contato</a>
+                <nav class="ancoras active">
+                    <a href="./index.html">Home</a>
+                    <a href="./sobreMim.html">Sobre mim</a>
+                    <a href="./resumo.html">Resumo</a>
+                    <a href="./contato.html">Contato</a>
                 </nav>
-                <div class="menu__hamburguer">
+                <div class="menu__hamburguer active">
                     <div class="linha1"></div>
                     <div class="linha2"></div>
                     <div class="linha3"></div>
@@ -32,9 +32,9 @@
         <div class="pagina__inicial">
             <h3>Olá,Meu nome é</h3>
             <h2>Edson Ulisses</h2>
-            <p>Um programador que faz serviços para todos que se interessarem e pagarem o suficiente,com 20 anos de experiência</p>
+            <p>Sou estudante de Sistemas de Informação, desde sempre muito próximo à tecnologia e com vontade de transformar ideias em soluções. Nesta página você vai conhecer um pouco mais sobre minha trajetória, minhas ambições e onde quero chegar como desenvolvedor.</p>
             <div class="show__more">
-                <a href="#">saber mais</a>
+                <a href="./sobreMim.html">saber mais</a>
                 <i class="fa-solid fa-arrow-right" style="color: var(--cor-terciaria);"></i>
             </div>
             <div class="redes__sociais">
@@ -121,11 +121,23 @@
 
                             <div class="item">
                                 <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
-                                <p>projeto netflix</p>
+                                <div class="info">
+                                    <p>projeto netflix</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao com cuidado para replicar um serviço de streaming</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
                                 <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
-                                <p>projeto netflix</p>
+                                <div class="info">
+                                    <p>projeto netflix</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -133,14 +145,26 @@
                         <div class="carrossel__slide">
                             <div class="item">
                                 <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
-                                <p>projeto netflix</p>
+                                <div class="info">
+                                    <p>projeto netflix</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <div class="carrossel__slide">
                             <div class="item">
                                 <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
-                                <p>projeto netflix</p>
+                                <div class="info">
+                                    <p>projeto netflix</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -151,7 +175,24 @@
 
     </main>
 
-    <footer></footer>
+    <footer class="footer__inicial">
+        <section>
+                <h2>Entre em Contato!</h2>
+                <h3>Tem uma ideia, projeto ou oportunidade? Me envie uma mensagem.</h3>
+            <form class="formulario">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="digite seu nome completo" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="8" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </footer>
     <script type="module" src="./js/main.js"></script>
 </body>
 </html>
