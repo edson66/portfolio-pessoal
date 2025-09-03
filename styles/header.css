@@ -108,6 +108,7 @@ header{
         flex-direction: row;
         background: var(--preto);
         transform: translateX(0);
+        transition: none;
     }
 
     .ancoras a{
