@@ -29,3 +29,14 @@ body{
 
     --fonte-textos:"Montserrat", sans-serif;
 }
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --preto:#000000;
+        --cor-principal: #131212;
+        --cor-secundaria: #252525 ;
+        --cor-secundaria-degrade: linear-gradient(to top,#1a1919 30%,#000000 100%);
+        --cor-terciaria: #a10505;
+        --preto-terciario: #1a1919;
+    }
+}
