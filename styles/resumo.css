@@ -36,6 +36,10 @@
     
 }
 
+.card:last-child{
+    margin-bottom: 150px;
+}
+
 .card p{
     font-family: var(--fonte-textos);
     font-size: 1rem;
@@ -108,6 +112,7 @@
     font-size: 0.9rem;
     padding: 15px 0;
     border-radius: 25px;
+    transition: 0.3s;
 }
 
 .botao1{
@@ -187,4 +192,60 @@
 
 .disponivel:last-child{
     margin-bottom: 40px;
+}
+
+@media (min-width: 768px){
+    .resumo__textos h2{
+        font-size: 1.5rem;
+    }
+    
+    .card{
+        margin: 0 50px 30px 50px;
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .resumo__textos{
+        font-family: var(--fonte-textos);
+        margin: 30px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 1166px;
+    }
+
+    .cards__resumo{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        
+    }
+
+    .card{
+        margin: 0 80px;
+        height: 500px;
+    }
+
+    .card1{
+        width: 610px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .card2{
+        width: 456px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .resumo__textos h2{
+        font-size: 2rem;
+    }
+
+    .resumo__textos p{
+        max-width: 30%;
+    }    
 }

@@ -88,3 +88,37 @@ header{
     background-color: var(--cor-terciaria);
     color: var(--preto);
 }
+
+
+@media (min-width: 768px){
+    .elementos__cabecalho{
+        position: static;
+        justify-content: space-evenly;
+        padding: 0;
+        overflow: visible;
+    }
+
+
+    .menu__hamburguer{
+        display: none;
+    }
+
+    .ancoras{
+        position: static;
+        flex-direction: row;
+        background: var(--preto);
+        transform: translateX(0);
+    }
+
+    .ancoras a{
+        border: none;
+        width: 300px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1200px){
+    .elementos__cabecalho{
+        justify-content: space-between;
+    }
+}

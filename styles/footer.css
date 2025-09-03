@@ -38,6 +38,7 @@
     color: white;
     font-family: var(--fonte-textos);
     padding-top: 5px;
+    border-radius: 5px;
 }
 
 .formulario input{
@@ -59,4 +60,21 @@
     color: white;
     border: none;
     border-radius: 8px;
+}
+
+@media (min-width: 768px){
+    .footer__inicial{
+        padding: 140px 0;
+    }
+
+    .footer__inicial section{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .footer__inicial section{
+        width: 40%;
+    }
 }

@@ -91,6 +91,38 @@
     position: absolute;
 }
 
+.conteiner__foto__sobremim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background__foto__sobremim{
+    position: relative;
+    display: inline-block;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    height: 100px;
+    width: 210px;
+    background: radial-gradient(circle at bottom right,rgba(0,0,0,1) 10%,rgba(109, 2, 2, 0.6) 50%);
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.6);
+    transition: transform 1s ease;
+    
+}
+
+.background__foto__sobremim:hover{
+    transform: scale(1.05);
+}
+
+.foto__dev__sobremim{
+    width: 100%;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(48%);
+    position: absolute;
+}
+
 .skills{
     background: var(--preto-terciario);
     padding: 0 15px;
@@ -284,4 +316,104 @@
 .tip:hover span{
     visibility: visible;
     opacity: 1;
+}
+
+.margem {
+    display: block;
+    margin: 100px 0;
+    color: var(--cor-principal);
+}
+
+@media (min-width: 768px){
+
+    .pagina__inicial{
+        display: flex;
+        gap: 100px;
+        max-width: 90%;
+        margin: 100px auto 150px auto;
+        padding: 0;
+    }
+
+    .skills{
+        padding: 10px 15px 50px 15px;
+    }
+
+    .skills h2,.trabalhos__recentes h2{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding:50px 15px 50px 0;
+        gap: 20px;
+    }
+
+    .cards div:first-child{
+        margin-top: 0;
+    }
+
+    .cards div:last-child{
+        margin-bottom: 0;
+    }  
+    
+    .trabalhos__recentes{
+        padding-bottom: 50px;
+    }
+
+    .background__foto{
+        width: 250px;
+    }
+    
+    .margem {
+        display: none;
+    }  
+    
+    .background__foto__sobremim{
+        margin-top: 180px;
+        margin-bottom: -50px;
+        height: 100px;
+        width: 250px; 
+    }
+}
+
+@media (min-width: 1200px){
+    .pagina__inicial{
+        gap: 100px;
+        max-width: 70%;
+        margin: 200px auto 250px auto;
+
+    }   
+    
+    .background__foto{
+        width: 280px;
+    }
+
+    .background__foto__sobremim{
+        margin-top: 200px;
+        margin-bottom: -140px;
+        width: 270px; 
+    } 
+
+    .skills{
+        padding: 10px 15px 0px 15px;
+        min-height: 600px;
+    }    
+    
+    .cards{
+        grid-template-columns: 33% 33% 33%;
+        padding:50px 15px 50px 25px;
+        gap: 20px;
+        
+    }   
+    
+    .cards div{
+        width: 80%;
+    }
+
+    .menu__opcoes{
+        max-width: 25%;
+    }
+
 }
