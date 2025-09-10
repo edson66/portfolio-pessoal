@@ -37,13 +37,14 @@
     border: none;
     color: white;
     font-family: var(--fonte-textos);
-    padding-top: 5px;
+    font-size: 1rem;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .formulario input{
     padding: 5px 0;
-    
+    padding-left: 10px;
 }
 
 .formulario input::placeholder,.formulario textarea::placeholder{
@@ -75,6 +76,6 @@
 
 @media (min-width: 1200px){
     .footer__inicial section{
-        width: 40%;
+        width: 30%;
     }
 }

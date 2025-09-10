@@ -11,15 +11,15 @@
 <body>
     <header>
         <div>
-            <div class="elementos__cabecalho active">
+            <div class="elementos__cabecalho ">
                 <div class="logo"> <img src="./assets/logo.png" alt="logo da página"> </div>
-                <nav class="ancoras active">
+                <nav class="ancoras ">
                     <a href="./index.html">Home</a>
                     <a href="./sobreMim.html">Sobre mim</a>
                     <a href="./resumo.html">Resumo</a>
                     <a href="./contato.html">Contato</a>
                 </nav>
-                <div class="menu__hamburguer active">
+                <div class="menu__hamburguer ">
                     <div class="linha1"></div>
                     <div class="linha2"></div>
                     <div class="linha3"></div>
@@ -112,15 +112,15 @@
         <div class="trabalhos__recentes" id="recentes">
             <h2>Projetos Recentes</h2>
             <div class="menu__opcoes">
-                <p class="opc__web active">web</p>
-                <p class="opc__python">python</p>
-                <p class="opc__java">java</p>
+                <p class="opc__web active" data-filter="web">web</p>
+                <p class="opc__python" data-filter="python">python</p>
+                <p class="opc__java" data-filter="java">java</p>
             </div>
 
             <div class="carrossel">
                 <div class="carrossel__viewport">
                     <div class="carrossel__imagens">
-                        <div class="carrossel__slide">
+                        <div class="carrossel__slide" data-category="web">
 
                             <div class="item">
                                 <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
@@ -133,19 +133,29 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
+                                <img src="./assets/react.png" alt="foto do projeto organograma">
                                 <div class="info">
-                                    <p>projeto netflix</p>
+                                    <p>projeto organograma</p>
                                     <div class="tip">
                                         <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
                                         <span> projeto feito a mao</span>
                                     </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <img src="./assets/react.png" alt="foto do projeto organograma">
+                                <div class="info">
+                                    <p>projeto organograma</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
+                            </div>                            
 
                         </div>
 
-                        <div class="carrossel__slide">
+                        <div class="carrossel__slide" data-category="python">
                             <div class="item">
                                 <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
                                 <div class="info">
@@ -158,7 +168,7 @@
                             </div>
                         </div>
 
-                        <div class="carrossel__slide">
+                        <div class="carrossel__slide" data-category="java">
                             <div class="item">
                                 <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
                                 <div class="info">
