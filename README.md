@@ -46,7 +46,7 @@ Para visualizar o projeto localmente, siga estes passos:
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
-    cd [portfolio pessoal]
+    cd [portfolio-pessoal]
     ```
 3.  Abra o arquivo `index.html` no seu navegador.
     * (Recomendado) Use a extensão **Live Server** do VS Code para uma melhor experiência, que recarrega a página automaticamente ao salvar.
@@ -67,4 +67,5 @@ Este projeto foi uma grande oportunidade para aprofundar meus conhecimentos em J
 
 * **Email:** [edsonulissesr1@gmail.com]
 * **LinkedIn:** [https://www.linkedin.com/in/edson-sobrinho-103657372]
+
 * **GitHub:** [https://github.com/edson66]
