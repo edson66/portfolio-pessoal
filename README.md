@@ -10,8 +10,6 @@ Este é o repositório do meu portfólio pessoal, um projeto desenvolvido para a
 
 ## 📸 Preview
 
-[Adicione aqui um screenshot ou um GIF do seu portfólio em ação! Para fazer isso, crie uma pasta `gifs` no seu projeto, adicione a imagem/gif nela e altere o link abaixo.]
-
 ![Preview do Projeto](./assets/preview.png)
 
 ## ✨ Funcionalidades
@@ -44,11 +42,11 @@ Para visualizar o projeto localmente, siga estes passos:
 
 1.  Clone o repositório:
     ```bash
-    git clone [link-do-seu-repositorio.git]
+    git clone [https://github.com/edson66/portfolio-pessoal.git]
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
-    cd [nome-da-pasta]
+    cd [portfolio pessoal]
     ```
 3.  Abra o arquivo `index.html` no seu navegador.
     * (Recomendado) Use a extensão **Live Server** do VS Code para uma melhor experiência, que recarrega a página automaticamente ao salvar.
