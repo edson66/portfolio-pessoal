@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
+    <meta name="color-scheme" content="dark">
     <title>Página inicial</title>
+    <link rel="icon" type="image/png" href="./assets/icone-logo.png">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -192,17 +193,18 @@
         <section id="contato">
                 <h2>Entre em Contato!</h2>
                 <h3>Tem uma ideia, projeto ou oportunidade? Me envie uma mensagem.</h3>
-            <form class="formulario">
+            <form class="formulario" id="formulario" action="https://formspree.io/f/mrbajoza" method="POST">
                 <label for="name">Nome</label>
-                <input type="text" name="name" id="name" placeholder="digite seu nome completo" required>
+                <input type="text" name="name" id="name" placeholder="digite seu nome completo" required autocomplete="name">
 
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com" required autocomplete="email">
 
                 <label for="message">Mensagem</label>
-                <textarea id="message" name="message" rows="8" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                <textarea id="message" name="message" rows="8" placeholder="Escreva sua mensagem aqui..." required autocomplete="message"></textarea>
 
-                <button type="submit">Enviar Mensagem</button>
+                <button type="submit" id="submit">Enviar Mensagem</button>
+                <p id="status"></p>
             </form>
         </section>
     </footer>
