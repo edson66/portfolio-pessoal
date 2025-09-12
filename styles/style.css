@@ -21,16 +21,12 @@ body{
 
 :root{
     color-scheme: dark;
-    --preto:rgba(0, 0, 0, 0.999);
-    --cor-principal: rgba(19, 18, 18, 0.999);
-    --cor-secundaria: rgba(37, 37, 37, 0.999) ;
+    --preto:rgba(0, 0, 0, 1);
+    --cor-principal: rgba(19, 18, 18, 1);
+    --cor-secundaria: rgba(37, 37, 37, 1) ;
     --cor-secundaria-degrade: linear-gradient(to top,#1a1919 30%,#000000 100%);
-    --cor-terciaria: rgba(161, 5, 5, 0.999);
-    --preto-terciario: rgba(26, 25, 25, 0.999);
+    --cor-terciaria: rgba(161, 5, 5, 1);
+    --preto-terciario: rgba(26, 25, 25, 1);
 
     --fonte-textos:"Montserrat", sans-serif;
-}
-
-html.samsung-dark-mode-fix :root {
-  --cor-terciaria: #D93025;
 }
