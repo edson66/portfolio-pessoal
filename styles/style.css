@@ -31,7 +31,6 @@ body{
     --fonte-textos:"Montserrat", sans-serif;
 }
 
-
-body{
-  transform: translateZ(0);
+html.samsung-dark-mode-fix :root {
+  --cor-terciaria: #D93025;
 }
