@@ -1,0 +1,32 @@
+@import url(./main.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./contato.css);
+@import url(./resumo.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: white;
+    height: 100vh;
+    
+    
+}
+
+:root{
+    color-scheme: dark;
+    --preto:rgba(0, 0, 0, 0.999);
+    --cor-principal: rgba(19, 18, 18, 0.999);
+    --cor-secundaria: rgba(37, 37, 37, 0.999) ;
+    --cor-secundaria-degrade: linear-gradient(to top,#1a1919 30%,#000000 100%);
+    --cor-terciaria: rgba(161, 5, 5, 0.999);
+    --preto-terciario: rgba(26, 25, 25, 0.999);
+
+    --fonte-textos:"Montserrat", sans-serif;
+}
