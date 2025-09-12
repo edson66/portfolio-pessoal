@@ -30,3 +30,16 @@ body{
 
     --fonte-textos:"Montserrat", sans-serif;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  body img,
+  body video,
+  body iframe {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
