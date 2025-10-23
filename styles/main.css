@@ -154,7 +154,6 @@
     padding: 40px 0;
     border-radius: 10px;
     margin: 0 10px;
-    
 }
 
 .cards div i{
@@ -181,13 +180,6 @@
 
 .cards div:last-child{
     margin-bottom: 50px;
-    background-color: var(--cor-secundaria);
-    opacity: 0.5;
-    transition: opacity 1s ease-out;
-}
-
-.cards div:last-child:hover{
-    opacity: 1;
 }
 
 .simbolos{
