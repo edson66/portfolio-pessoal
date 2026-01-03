@@ -56,6 +56,31 @@
         <div class="skills">
             <h2>Um pouco do que posso fazer</h2>
             <div class="cards">
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-brands fa-java" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Java</h3>
+                    <p>Desenvolvo aplicações robustas e escaláveis, utilizando a linguagem Java para criar soluções de back-end eficientes e de alta performance.</p>
+                </div>   
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fab fa-pagelines" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Spring Boot</h3>
+                    <p>Construo APIs REST, aproveitando o ecossistema Spring Boot para agilizar o desenvolvimento e garantir a segurança e a manutenibilidade das aplicações.</p>
+                </div>
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-brands fa-docker" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Docker</h3>
+                    <p>Trabalho com Docker para criar e gerenciar containers, facilitando o desenvolvimento, versionamento de ambientes e deploy de aplicações.</p>
+                </div> 
+
                 <div>
                     <section class="simbolos">
                         <i class="fa-brands fa-html5" style="color: var(--cor-terciaria);"></i>
@@ -64,14 +89,6 @@
                     </section>
                     <h3>Front-end (HTML, CSS e JavaScript)</h3>
                     <p>Base sólida do desenvolvimento web. Estruturo páginas, aplico estilos modernos e adiciono interatividade com JavaScript.</p>
-                </div>
-
-                <div>
-                    <section class="simbolos">
-                        <i class="fa-brands fa-react" style="color: var(--cor-terciaria);"></i>
-                    </section>
-                    <h3>React</h3>
-                    <p>Construo componentes reutilizáveis e interfaces dinâmicas, aplicando conceitos do React para projetos práticos.</p>
                 </div>
 
                 <div>
@@ -89,37 +106,52 @@
                     </section>
                     <h3>Clean Code</h3>
                     <p>Busco escrever código limpo, legível e fácil de manter, sempre priorizando boas práticas.</p>
-                </div>
-
-                <div>
-                    <section class="simbolos">
-                        <i class="fa-brands fa-java" style="color: var(--cor-terciaria);"></i>
-                    </section>
-                    <h3>Java</h3>
-                    <p>Desenvolvo aplicações robustas e escaláveis, utilizando a linguagem Java para criar soluções de back-end eficientes e de alta performance.</p>
-                </div>                
-
-                <div>
-                    <section class="simbolos">
-                        <i class="fab fa-pagelines" style="color: var(--cor-terciaria);"></i>
-                    </section>
-                    <h3>Spring Boot</h3>
-                    <p>Construo APIs REST, aproveitando o ecossistema Spring Boot para agilizar o desenvolvimento e garantir a segurança e a manutenibilidade das aplicações.</p>
-                </div>                                
+                </div>               
+                                
             </div>
         </div>
 
         <div class="trabalhos__recentes" id="recentes">
             <h2>Projetos Recentes</h2>
             <div class="menu__opcoes">
-                <p class="opc__web active" data-filter="web">web</p>
+                <p class="opc__java active" data-filter="java">java</p>
+                <p class="opc__web" data-filter="web">web</p>
                 <p class="opc__python" data-filter="python">python</p>
-                <p class="opc__java" data-filter="java">java</p>
             </div>
 
             <div class="carrossel">
                 <div class="carrossel__viewport">
                     <div class="carrossel__imagens">
+
+                        <div class="carrossel__slide" data-category="java">
+                            <div class="item">
+                                <a href="https://github.com/edson66/rateiopro-api" target="_blank"><img src="./assets/rateio.png" alt="foto do projeto RateioPro API"></a>
+                                <div class="info">
+                                    <p>Projeto RateioPro API</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span>Aplicação back-end complexa para controle de divisão de finanças entre amigos. Saiba mais no repositório do projeto!</span>
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            <div class="item">
+                                <a href="https://projeto-finance-front.vercel.app/" target="_blank"><img src="./assets/finance.png" alt="foto do projeto Finance API"></a>
+                                <div class="info">
+                                    <p>Projeto Finance API</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span>Aplicação full-stack para controle financeiro pessoal. Interface moderna com React (MUI) consumindo uma API robusta feita em Java (Spring Boot) com segurança JWT. Gerencie suas transações de forma eficaz.</span>
+                                    </div>
+                                </div>
+                            </div>  
+
+                            <div class="item">
+                                <a href="" target="_blank"><img src="./assets/emBreve.png" alt="foto do projeto Finance API"></a>
+                            </div>  
+
+                        </div>
+
                         <div class="carrossel__slide" data-category="web">
 
                             <div class="item">
@@ -171,19 +203,6 @@
                             <div class="item card-celular">
                                 <img src="./assets/emBreve.png" alt="card de Em Breve">
                             </div>                            
-                        </div>
-
-                        <div class="carrossel__slide" data-category="java">
-                            <div class="item">
-                                <a href="https://projeto-finance-front.vercel.app/" target="_blank"><img src="./assets/finance.png" alt="foto do projeto Finance API"></a>
-                                <div class="info">
-                                    <p>Projeto Finance API</p>
-                                    <div class="tip">
-                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
-                                        <span>Aplicação full-stack para controle financeiro pessoal. Interface moderna com React (MUI) consumindo uma API robusta feita em Java (Spring Boot) com segurança JWT. Gerencie suas transações de forma eficaz.</span>
-                                    </div>
-                                </div>
-                            </div>                             
                         </div>
 
                     </div>
